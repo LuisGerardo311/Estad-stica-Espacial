@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>NMIR</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>NMIR.SHP</path>
+            </datasource>
+            <layername>NMIR</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>AREA</var>
+                <var>PERIMETER</var>
+                <var>NMIR_</var>
+                <var>NMIR_ID</var>
+                <var>REDCODE</var>
+                <var>ACRES</var>
+                <var>PORC_0_17</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>NMIR</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>NMIR.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>PORC_0_17</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
